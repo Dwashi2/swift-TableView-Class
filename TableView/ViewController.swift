@@ -144,7 +144,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+        if indexPath.section == Section.carros.rawValue {
+            print(self.arrayCarros[indexPath.row])
+        }
+        else{
+            print(self.arrayMotos[indexPath.row])
+        }
+        
     }
     
     
