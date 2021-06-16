@@ -13,6 +13,8 @@
 		56EFFD4026796457004E1800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EFFD3E26796457004E1800 /* Main.storyboard */; };
 		56EFFD4226796459004E1800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56EFFD4126796459004E1800 /* Assets.xcassets */; };
 		56EFFD4526796459004E1800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56EFFD4326796459004E1800 /* LaunchScreen.storyboard */; };
+		56EFFD4F26797F87004E1800 /* Carros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFFD4E26797F87004E1800 /* Carros.swift */; };
+		56EFFD5226798163004E1800 /* Motos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EFFD5126798163004E1800 /* Motos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		56EFFD4126796459004E1800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56EFFD4426796459004E1800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56EFFD4626796459004E1800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56EFFD4E26797F87004E1800 /* Carros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carros.swift; sourceTree = "<group>"; };
+		56EFFD5126798163004E1800 /* Motos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		56EFFD3726796456004E1800 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				56EFFD4D26797F78004E1800 /* Class */,
 				56EFFD3826796457004E1800 /* AppDelegate.swift */,
 				56EFFD3A26796457004E1800 /* SceneDelegate.swift */,
 				56EFFD3C26796457004E1800 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				56EFFD4626796459004E1800 /* Info.plist */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		56EFFD4D26797F78004E1800 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				56EFFD4E26797F87004E1800 /* Carros.swift */,
+				56EFFD5126798163004E1800 /* Motos.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				56EFFD3D26796457004E1800 /* ViewController.swift in Sources */,
+				56EFFD4F26797F87004E1800 /* Carros.swift in Sources */,
 				56EFFD3926796457004E1800 /* AppDelegate.swift in Sources */,
+				56EFFD5226798163004E1800 /* Motos.swift in Sources */,
 				56EFFD3B26796457004E1800 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
